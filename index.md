@@ -1,18 +1,13 @@
 ---
 layout: home
 ---
-```
 
-That's the homepage — without it, the site has nothing to display.
+## Hi, I'm Brynja 👋
+
+Welcome to my data science blog! Here I write about machine learning, 
+statistics, and data analysis.
+
+Currently putting together Icelandic database for Ironman and Ironman 70.3 results database
+
 
 ---
-
-## Checklist
-
-After committing both files, your repo root should have:
-```
-brynjads.github.io/
-├── _config.yml     ✅ already done
-├── Gemfile         ← add this
-├── index.md        ← add this
-└── _posts/         ← optional, for blog posts
