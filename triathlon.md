@@ -9,7 +9,7 @@ permalink: /triathlon/
 <div id="triathlon-table">Loading...</div>
 
 <script>
-fetch('/data/all_combined.tmp.tsv')
+fetch('/data/all_combined.temp.tsv')
   .then(res => res.text())
   .then(tsv => {
     const rows = tsv.trim().split('\n').map(r => r.split('\t'));
